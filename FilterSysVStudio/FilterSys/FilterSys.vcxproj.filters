@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ex">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="RF">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ex\Dialog">
+      <UniqueIdentifier>{f22677cd-c6aa-4015-9229-3ff384c38bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ex\Contents">
+      <UniqueIdentifier>{b6f93e2a-6b03-4c19-8d2b-a9660a434e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ex\Filter">
+      <UniqueIdentifier>{84170a74-7411-4dd0-be3c-1e64bbd4ece1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ex\Design">
+      <UniqueIdentifier>{c38382f5-297d-42a6-b7ee-d3f9d5eb309c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FilterSys.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogHelper.hpp">
+      <Filter>Ex\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="GetContents.hpp">
+      <Filter>Ex\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayFiltered.hpp">
+      <Filter>Ex\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPause.hpp">
+      <Filter>Ex\Design</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
